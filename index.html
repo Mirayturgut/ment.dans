@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Ment.Dans</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Quicksand:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-border text-primary"
+        style="width: 3rem; height: 3rem"
+        role="status"
+      >
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light p-0 wow fadeIn" data-wow-delay="0.1s">
+      <div class="row gx-0 d-none d-lg-flex">
+        <div class="col-lg-7 px-5 text-start">
+          <!-- <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+            <small class="fa fa-map-marker-alt text-primary me-2"></small>
+            <small>Maltepe, İstanbul, Türkiye / Ataköy, İstanbul, Türkiye  </small>
+          </div>
+          <div class="h-100 d-inline-flex align-items-center py-3">
+            <small class="far fa-clock text-primary me-2"></small>
+            <small>Maltepe/ Salı: 20.00 - 21.00    Ataköy/ Pazar: 18.00 - 19.00</small>
+          </div> -->
+        </div>
+        <div class="col-lg-5 px-5 text-end">
+          <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+            <small class="fa fa-phone-alt text-primary me-2"></small>
+            <small>+90 533 213 32 10</small>
+          </div>
+          <div class="h-100 d-inline-flex align-items-center">
+            <a class="btn btn-sm-square bg-white text-primary me-1" href=""
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a class="btn btn-sm-square bg-white text-primary me-1" href=""
+              ><i class="fab fa-youtube"></i
+            ></a>
+            <a class="btn btn-sm-square bg-white text-primary me-0" href=""
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar Start -->
+    <nav
+      class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-4 px-lg-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <a href="index.html" class="navbar-brand p-0">
+        <img class="img-fluid me-3" src="./images/mentdans-logo.jpg" alt="Icon" />
+        <h1 class="m-0 text-primary">Ment.Dans</h1>
+      </a>
+      <button
+        type="button"
+        class="navbar-toggler"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarCollapse"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse py-4 py-lg-0" id="navbarCollapse">
+        <div class="navbar-nav ms-auto">
+          <a href="index.html" class="nav-item nav-link active">Anasayfa</a>
+          <a href="#" class="nav-item nav-link">Hakkımızda</a>
+          <div class="nav-item dropdown">
+            <a
+              href="#"
+              class="nav-link dropdown-toggle"
+              data-bs-toggle="dropdown"
+              >Eğitimler</a
+            >
+            <div class="dropdown-menu rounded-0 rounded-bottom m-0">
+              <a href="#" class="dropdown-item">Halk Oyunları</a>
+              <a href="#" class="dropdown-item">Ritim & Müzik</a>
+              <a href="#" class="dropdown-item">Düğün & Organizasyon</a>
+              <a href="#" class="dropdown-item">Hizmetler</a>
+            </div>
+          </div>
+          <a href="#" class="nav-item nav-link">Videolar</a>
+          <a href="#" class="nav-item nav-link">İletişim</a>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+     <style>
+      .text-primary {
+        color: #8B57A7 !important;
+      }
+     </style>
+    <!-- Header Start -->
+    <div class="container-fluid bg-dark p-0 mb-5">
+      <div class="row g-0 flex-column-reverse flex-lg-row">
+        <div class="col-lg-6 p-0 wow fadeIn" data-wow-delay="0.1s">
+          <div
+            class="header-bg h-100 d-flex flex-column justify-content-center p-5"
+          >
+            <h1 class="display-4 text-light mb-5">
+              Anadolu’nun ritmini sahneye taşıyoruz.
+            </h1>
+            <p>Halk Oyunnları • Horon • Halay • Zeybek</p>
+<div class="d-flex align-items-center pt-4 animated slideInDown">
+  <!-- <a href="" class="btn btn-primary py-sm-3 px-3 px-sm-5 me-5">
+    İncele
+  </a> -->
+
+  <button
+    type="button"
+    class="btn-play"
+    data-bs-toggle="modal"
+    data-bs-target="#videoModal"
+    data-video="ta2iexu-cH0">
+    <span></span>
+  </button>
+
+  <h6 class="text-white m-0 ms-4 d-none d-sm-block">Video İzle</h6>
+</div>
+<!-- VİDEO MODAL START -->
+<div class="modal fade" id="videoModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title">Youtube Video</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body p-0">
+        <div class="ratio ratio-16x9">
+          <iframe
+            id="videoFrame"
+            src=""
+            allow="autoplay; encrypted-media"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<script>
+  const videoModal = document.getElementById("videoModal");
+  const videoFrame = document.getElementById("videoFrame");
+
+  videoModal.addEventListener("show.bs.modal", function (event) {
+    const button = event.relatedTarget;
+    const videoId = button.getAttribute("data-video");
+
+    videoFrame.src =
+      "https://www.youtube.com/embed/" + videoId + "?autoplay=1&rel=0";
+  });
+
+  videoModal.addEventListener("hidden.bs.modal", function () {
+    videoFrame.src = "";
+  });
+</script>
+<!-- VİDEO MODAL END-->
+      </div>
+    </div>
+    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+      <div class="owl-carousel header-carousel">
+        <div class="owl-carousel-item">
+          <img class="img-fluid" src="	https://www.izmirdans.net/Resimler/teke%20Zortlatmas%C4%B1%20ekibi.jpg" alt="" />
+        </div>
+        <div class="owl-carousel-item">
+          <img class="img-fluid" src="https://sparklebymarche.com/wp-content/uploads/2020/01/karadeniz-halk-2.jpg" alt="" />
+        </div>
+        <!-- <div class="owl-carousel-item">
+          <img class="img-fluid" src="https://i.pinimg.com/originals/d3/17/0c/d3170ca999c12ce72c0257381afc66fc.jpg" alt="" />
+        </div> -->
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Header End -->
+
+     <style>
+      .btn-primary {
+        color: #000;
+       background-color: #8B57A7 !important;
+       border-color: #8B57A7 !important;
+       border-radius: 10%;
+      }
+     </style>
+
+
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+            <p><span class="text-primary me-2">#</span>Hakkımızda</p>
+            <h1 class="display-5 mb-4">
+              Neden 
+              <span class="text-primary">Ment.</span>Dans?
+            </h1>
+            <p class="mb-2">
+              Ment.Dans; dansı sadece bir hareket değil, bir ifade, bir kültür ve bir yaşam biçimi olarak görenlerin buluşma noktasıdır. 
+              Halk oyunlarından modern danslara uzanan geniş yelpazemizde; horon, halay, zeybek ve daha birçok dans türünü, disiplinli eğitim ve keyifli bir atmosferle bir araya getiriyoruz.
+            </p>
+            <p class="mb-2">
+              Alanında deneyimli eğitmenlerimizle her yaştan ve her seviyeden dans tutkununa hitap ediyor; hem teknik gelişimi hem de sahne özgüvenini ön planda tutuyoruz. 
+              Ment.Dans’ta amaç sadece öğretmek değil, birlikte üretmek, paylaşmak ve dansın birleştirici gücünü yaşatmaktır.
+            </p>
+            <p class="mb-2">
+              Ritmi hissetmek, kültürle buluşmak ve kendini dansla ifade etmek isteyen herkesi Ment.Dans ailesine davet ediyoruz.
+            </p>
+            <a class="btn btn-primary py-3 px-5 mt-3" href="">Detaylı İncele</a>
+          </div>
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="img-border">
+              <img class="img-fluid" src="	https://i.dugun.com/gallery/113151/preview_ment-dans_wd9oWCRR.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Facts Start -->
+    <div
+      class="container-xxl bg-primary facts my-5 py-5 wow fadeInUp"
+      data-wow-delay="0.1s"
+    >
+      <div class="container py-5">
+        <div class="row g-4">
+          <div
+            class="col-md-6 col-lg-3 text-center wow fadeIn"
+            data-wow-delay="0.1s"
+          >
+            <h1 class="text-white mb-2" >Oyun Havası</h1>
+          </div>
+          <div
+            class="col-md-6 col-lg-3 text-center wow fadeIn"
+            data-wow-delay="0.3s"
+          >
+            <h1 class="text-white mb-2">Halay</h1>
+          </div>
+          <div
+            class="col-md-6 col-lg-3 text-center wow fadeIn"
+            data-wow-delay="0.5s"
+          >
+            <h1 class="text-white mb-2">Horon</h1>
+          </div>
+          <div
+            class="col-md-6 col-lg-3 text-center wow fadeIn"
+            data-wow-delay="0.7s"
+          >
+            <h1 class="text-white mb-2">Zeybek</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Facts End -->
+
+    <!-- Service Start -->
+<section class="container-xxl py-5" id="egitimler">
+  <div class="container">
+    <div class="row g-5 mb-5 align-items-end">
+      <div class="col-lg-7">
+        <p class="mb-2"><span class="text-primary me-2">#</span>Eğitimler</p>
+        <h2 class="display-5 mb-0">
+          Ment.Dans’ta <span class="text-primary">Neler Var?</span>
+        </h2>
+      </div>
+      <div class="col-lg-5 text-lg-end">
+        <a class="btn btn-primary py-3 px-5" href="#iletisim">Tüm Eğitimleri Gör</a>
+      </div>
+    </div>
+
+    <div class="row g-4">
+      <!-- 1 -->
+      <div class="col-12 col-md-6 col-lg-3">
+        <a href="#halk-oyunlari" class="edu-card h-100" >
+          <div class="edu-icon"><i class="bi bi-people"></i></div>
+          <h5>Halk Oyunları</h5>
+          <p>Horon, Halay, Zeybek ve bölgesel oyunlarla seviye seviye eğitim.</p>
+          <span class="edu-link">Detayları Gör <i class="bi bi-arrow-right"></i></span>
+        </a>
+      </div>
+
+      <!-- 2 -->
+      <div class="col-12 col-md-6 col-lg-3">
+        <a href="#ritim" class="edu-card h-100" >
+          <div class="edu-icon"><i class="bi bi-music-note-beamed"></i></div>
+          <h5>Ritim & Müzik</h5>
+          <p>Ritim duygusu, sayım, tempo ve müzikle uyum çalışmaları.</p>
+          <span class="edu-link">Detayları Gör <i class="bi bi-arrow-right"></i></span>
+        </a>
+      </div>
+
+      <!-- 3 -->
+      <div class="col-12 col-md-6 col-lg-3">
+        <a href="#organizasyon" class="edu-card h-100" >
+          <div class="edu-icon"><i class="bi bi-calendar-event"></i></div>
+          <h5>Düğün & Organizasyon</h5>
+          <p>Düğün dansı, sahne şovu ve özel gün koreografi paketleri.</p>
+          <span class="edu-link">Detayları Gör <i class="bi bi-arrow-right"></i></span>
+        </a>
+      </div>
+
+      <!-- 4 -->
+      <div class="col-12 col-md-6 col-lg-3">
+        <a href="#hizmetler" class="edu-card h-100" >
+          <div class="edu-icon"><i class="bi bi-stars"></i></div>
+          <h5>Eğitimler</h5>
+          <p>Grup dersleri, özel ders ve enstrüman kiralama.</p>
+          <span class="edu-link">Detayları Gör <i class="bi bi-arrow-right"></i></span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<style>
+  /* Ment.Dans uyumlu kartlar */
+.edu-card{
+  display:block;
+  background:#fff;
+  border:1px solid rgba(0,0,0,.06);
+  border-radius:18px;
+  padding:22px 20px;
+  text-decoration:none;
+  color:inherit;
+  box-shadow:0 10px 30px rgba(0,0,0,.06);
+  transition:.2s ease;
+  position:relative;
+  overflow:hidden;
+}
+
+.edu-card:hover{
+  transform: translateY(-4px);
+  box-shadow:0 16px 45px rgba(0,0,0,.10);
+  border-color: rgba(111,66,193,.25);
+}
+
+.edu-icon{
+  width:56px;
+  height:56px;
+  border-radius:16px;
+  display:grid;
+  place-items:center;
+  margin-bottom:14px;
+  background: rgba(111,66,193,.12); /* mor */
+  color: #6f42c1;
+  font-size:26px;
+}
+
+
+.edu-link{
+  font-weight:700;
+  color:#6f42c1;
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+}
+
+.edu-card::after{
+  content:"";
+  position:absolute;
+  inset:auto -60px -60px auto;
+  width:180px; height:180px;
+  border-radius:50%;
+  background: radial-gradient(circle, rgba(255,165,0,.18), rgba(111,66,193,.08), transparent 70%);
+  pointer-events:none;
+}
+
+</style>
+    <!-- Service End -->
+
+    <!-- Animal Start -->
+<section class="videos-section py-5">
+  <div class="container">
+
+    <div class="d-flex align-items-end justify-content-between flex-wrap gap-3 mb-4">
+      <div>
+        <p class="mb-2"><span class="text-primary me-2">#</span>Videolar</p>
+        <h2 class="display-5 mb-2">Eğitim & <span class="text-primary">Dans</span> Videolarımız</h2>
+      </div>
+      <a class="btn btn-primary py-3 px-5" href="#">Tüm Videoları Gör</a>
+    </div>
+
+    <!-- SLIDER -->
+    <div id="videoCarousel" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-inner">
+
+        <!-- SLIDE 1 (3 kart) -->
+        <div class="carousel-item active">
+          <div class="row g-4">
+            <!-- CARD -->
+            <div class="col-12 col-md-6 col-lg-4">
+  <button class="video-card" type="button"
+    data-bs-toggle="modal" data-bs-target="#videoModal"
+    data-video="vYZ7S5U-U4w">
+    <div class="thumb">
+      <img src="https://img.youtube.com/vi/vYZ7S5U-U4w/hqdefault.jpg" alt="Video">
+      <span class="play"></span>
+      <span class="badge">Halay</span>
+    </div>
+
+    <div class="meta">
+      <h6 class="title">Erzincan Düz Halay</h6>
+      <p class="desc">Temel adımlar & ritim çalışması</p>
+    </div>
+  </button>
+</div>
+
+
+            <div class="col-12 col-md-6 col-lg-4">
+              <button class="video-card" type="button"
+                data-bs-toggle="modal" data-bs-target="#videoModal"
+                data-video="hWUOHB1ZIHM">
+                <div class="thumb">
+                  <img src="https://img.youtube.com/vi/hWUOHB1ZIHM/hqdefault.jpg" alt="Video">
+                  <span class="play"></span>
+                  <span class="badge">Horon</span>
+                </div>
+                <div class="meta">
+                  <h6 class="title">Horon Eğitimi</h6>
+                  <p class="desc">Hız, denge & koordinasyon</p>
+                </div>
+              </button>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 d-none d-lg-block">
+              <button class="video-card" type="button"
+                data-bs-toggle="modal" data-bs-target="#videoModal"
+                data-video="VLAIwWaX-0c">
+                <div class="thumb">
+                  <img src="https://img.youtube.com/vi/VLAIwWaX-0c/hqdefault.jpg" alt="Video">
+                  <span class="play"></span>
+                  <span class="badge">Halay</span>
+                </div>
+                <div class="meta">
+                  <h6 class="title">Şemame Halay</h6>
+                  <p class="desc">Duruş, tavır & adım kalıbı</p>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- SLIDE 2 (3 kart) -->
+        <div class="carousel-item">
+          <div class="row g-4">
+            <div class="col-12 col-md-6 col-lg-4">
+              <button class="video-card" type="button"
+                data-bs-toggle="modal" data-bs-target="#videoModal"
+                data-video="F8clFvReX0o">
+                <div class="thumb">
+                  <img src="https://img.youtube.com/vi/F8clFvReX0o/hqdefault.jpg" alt="Video">
+                  <span class="play"></span>
+                  <span class="badge">Eğitim</span>
+                </div>
+                <div class="meta">
+                  <h6 class="title">Temel Adımlar</h6>
+                  <p class="desc">Başlangıç seviyesi çalışma</p>
+                </div>
+              </button>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+              <button class="video-card" type="button"
+                data-bs-toggle="modal" data-bs-target="#videoModal"
+                data-video="vjy8koTQ76I">
+                <div class="thumb">
+                  <img src="https://img.youtube.com/vi/vjy8koTQ76I/hqdefault.jpg" alt="Video">
+                  <span class="play"></span>
+                  <span class="badge">Sahne</span>
+                </div>
+                <div class="meta">
+                  <h6 class="title">Gösteri</h6>
+                  <p class="desc">Sahne performansı</p>
+                </div>
+              </button>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 d-none d-lg-block">
+              <button class="video-card" type="button"
+                data-bs-toggle="modal" data-bs-target="#videoModal"
+                data-video="qG0Ldw06mgI">
+                <div class="thumb">
+                  <img src="https://img.youtube.com/vi/qG0Ldw06mgI/hqdefault.jpg" alt="Video">
+                  <span class="play"></span>
+                  <span class="badge">Ritim</span>
+                </div>
+                <div class="meta">
+                  <h6 class="title">Atölye</h6>
+                  <p class="desc">Grup çalışması</p>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- CONTROLS -->
+      <button class="carousel-control-prev video-nav" type="button" data-bs-target="#videoCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Geri</span>
+      </button>
+      <button class="carousel-control-next video-nav" type="button" data-bs-target="#videoCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">İleri</span>
+      </button>
+
+    </div>
+
+  </div>
+</section>
+
+<style>
+  .videos-section .video-card{
+  width:100%;
+  border:0;
+  background:#fff !important;
+  border-radius:18px;
+  overflow:hidden;
+  padding:0;
+  text-align:left;
+  cursor:pointer;
+  transition:.2s ease;
+}
+.videos-section .video-card:hover{ transform:translateY(-4px); box-shadow:0 14px 40px rgba(0,0,0,.12); }
+
+.videos-section .thumb{ position:relative; aspect-ratio:16/9; overflow:hidden; }
+.videos-section .thumb img{ width:100%; height:100%; object-fit:cover; }
+
+.videos-section .play{ position:absolute; inset:0; display:grid; place-items:center; }
+.videos-section .play::before{
+  content:""; width:64px; height:64px; border-radius:50%;
+}
+.videos-section .play::after{
+  content:""; margin-left:6px; width:0; height:0;
+  border-left:16px solid #fff;
+  border-top:10px solid transparent;
+  border-bottom:10px solid transparent;
+}
+
+.videos-section .badge{
+  position:absolute; left:14px; top:14px;
+  background:rgba(111,66,193,.92);
+  color:#fff; padding:6px 10px; border-radius:999px; font-size:12px;
+}
+
+.videos-section .meta{ padding:14px 16px 16px; }
+.videos-section .title{ margin:0 0 6px; font-weight:700; }
+.videos-section .desc{ margin:0; opacity:.75; font-size:14px; }
+
+.videos-section .video-nav{
+  width:48px;
+}
+
+</style>
+
+    <!-- Animal End -->
+
+    <!-- Footer Start -->
+    <div
+      class="container-fluid footer bg-dark text-light footer mt-5 pt-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-light mb-4">Adres</h5>
+            <p class="mb-2">
+              <i class="fa fa-map-marker-alt me-3"></i>Maltepe, İstanbul, Türkiye
+            </p>
+            <p class="mb-2">
+              <i class="fa fa-phone-alt me-3"></i>+90 533 213 32 10
+            </p>
+            <div class="d-flex pt-2">
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-youtube"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href=""
+              ><i class="fab fa-instagram"></i
+            ></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-light mb-4">Hızlı Menü</h5>
+            <a class="btn btn-link" href="">Anasayfa</a>
+            <a class="btn btn-link" href="">Hakkımızda</a>
+            <a class="btn btn-link" href="">Eğitimler</a>
+            <a class="btn btn-link" href="">Videolar</a>
+            <a class="btn btn-link" href="">İletişim</a>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-light mb-4">Eğitimler</h5>
+            <a class="btn btn-link" href="">Halk Oyunları</a>
+            <a class="btn btn-link" href="">Ritim & Müzik</a>
+            <a class="btn btn-link" href="">Düğün & Organizasyon</a>
+            <a class="btn btn-link" href="">Hizmetler</a>
+          </div>
+          <!-- <div class="col-lg-3 col-md-6">
+            <h5 class="text-light mb-4">Newsletter</h5>
+            <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+            <div class="position-relative mx-auto" style="max-width: 400px">
+              <input
+                class="form-control border-0 w-100 py-3 ps-4 pe-5"
+                type="text"
+                placeholder="Your email"
+              />
+              <button
+                type="button"
+                class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
+              >
+                SignUp
+              </button>
+            </div>
+          </div> -->
+        </div>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <div class="row">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+              &copy; <a class="border-bottom" href="#">Ment Dans</a>. Tüm hakları saklıdır.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+      ><i class="bi bi-arrow-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
