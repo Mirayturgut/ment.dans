@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Mental Sanat</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Quicksand:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+    </head>
+<body>
+      <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-border text-primary"
+        style="width: 3rem; height: 3rem"
+        role="status"
+      >
+        <span class="sr-only">Yükleniyor...</span>
+      </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light p-0 wow fadeIn" data-wow-delay="0.1s">
+      <div class="row gx-0 d-none d-lg-flex">
+        <div class="col-lg-7 px-5 text-start">
+          <!-- <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+            <small class="fa fa-map-marker-alt text-primary me-2"></small>
+            <small>Maltepe, İstanbul, Türkiye / Ataköy, İstanbul, Türkiye  </small>
+          </div>
+          <div class="h-100 d-inline-flex align-items-center py-3">
+            <small class="far fa-clock text-primary me-2"></small>
+            <small>Maltepe/ Salı: 20.00 - 21.00    Ataköy/ Pazar: 18.00 - 19.00</small>
+          </div> -->
+        </div>
+        <div class="col-lg-5 px-5 text-end">
+          <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+            <small class="fa fa-phone-alt text-primary me-2"></small>
+            <small>+90 533 213 32 10</small>
+          </div>
+          <div class="h-100 d-inline-flex align-items-center">
+            <a class="btn btn-sm-square bg-white text-primary me-1" href=""
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a class="btn btn-sm-square bg-white text-primary me-1" href=""
+              ><i class="fab fa-youtube"></i
+            ></a>
+            <a class="btn btn-sm-square bg-white text-primary me-0" href=""
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar Start -->
+    <nav
+      class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-4 px-lg-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <a href="index.html" class="navbar-brand p-0">
+        <img class="img-fluid me-3" src="./images/mentdans-logo.jpg" alt="Icon" />
+        <h1 class="m-0 text-primary">Mental Sanat Merkezi</h1>
+      </a>
+      <button
+        type="button"
+        class="navbar-toggler"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarCollapse"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse py-4 py-lg-0" id="navbarCollapse">
+        <div class="navbar-nav ms-auto">
+          <a href="index.html" class="nav-item nav-link">Anasayfa</a>
+          <a href="hakkimizda.html" class="nav-item nav-link">Hakkımızda</a>
+          <div class="nav-item dropdown">
+            <a href="egitimler.html" class="nav-link active dropdown-toggle">Eğitimler</a>
+<div class="dropdown-menu rounded-0 rounded-bottom m-0">
+  <a href="egitimler.html#halk-oyunlari" class="dropdown-item">Halk Oyunları Eğitimi</a>
+  <a href="egitimler.html#halay" class="dropdown-item">Halay Eğitimi</a>
+  <a href="egitimler.html#horon" class="dropdown-item">Horon Eğitimi</a>
+  <a href="egitimler.html#dilber" class="dropdown-item">Dilber Dansı Eğitimi</a>
+  <a href="egitimler.html#sirtaki" class="dropdown-item">Sirtaki Eğitimi</a>
+  <a href="egitimler.html#darbuka" class="dropdown-item">Darbuka Ritim Eğitimi</a>
+  <a href="egitimler.html#balkan" class="dropdown-item">Balkan Dansı Eğitimi</a>
+  <a href="egitimler.html#oryantal" class="dropdown-item">Oryantal Roman Dansları</a>
+  <a href="egitimler.html#dugun" class="dropdown-item">Düğün Dansları</a>
+</div>
+
+          </div>
+          <a href="videolar.html" class="nav-item nav-link">Videolar</a>
+          <a href="iletisim.html" class="nav-item nav-link">İletişim</a>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+    <!-- Page Header Start -->
+    <div
+      class="container-fluid header-bg py-4 mb-5 wow fadeIn header-inline-bg"
+      data-wow-delay="0.1s"
+    >
+      <div class="container py-5">
+        <h1 class="display-4 text-white mb-3 animated slideInDown">Eğitimler</h1>
+        <nav aria-label="breadcrumb animated slideInDown">
+          <ol class="breadcrumb mb-0">
+            <li class="breadcrumb-item">
+              <a class="text-white" href="#">Anasayfa</a>
+            </li>
+            <!-- <li class="breadcrumb-item">
+              <a class="text-white" href="#">Pages</a>
+            </li> -->
+            <li class="breadcrumb-item text-primary active" aria-current="page">
+              Eğitimler
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+    <!-- Page Header End -->
+
+  <section class="container-xxl py-3" id="egitimler">
+  <div class="container">
+    <div class="row g-4 mb-4 align-items-end">
+      <div class="col-lg-7">
+        <p class="mb-2"><span class="text-primary me-2">#</span>Eğitimler</p>
+        <h2 class="display-5 mb-0">
+          Eğitim Kataloğu <span class="text-primary">— Seç & Başla</span>
+        </h2>
+        <p class="text-muted mt-2 mb-0">Hepsi farklı bir deneyim. İstediğini seç, detayına git.</p>
+      </div>
+      <div class="col-lg-5 text-lg-end">
+        <a class="btn btn-primary py-3 px-5" href="egitimler.html">Tüm Eğitimleri Gör</a>
+      </div>
+    </div>
+
+    <!-- Quick filter (opsiyonel ama çok iyi durur) -->
+    <div class="edu-filter mb-4">
+      <button class="edu-chip active" type="button" data-filter="all">Hepsi</button>
+      <button class="edu-chip" type="button" data-filter="halk">Halk Oyunları</button>
+      <button class="edu-chip" type="button" data-filter="ritim">Ritim</button>
+      <button class="edu-chip" type="button" data-filter="dunya">Dünya Dansları</button>
+      <button class="edu-chip" type="button" data-filter="sahne">Sahne</button>
+    </div>
+
+    <div class="row g-4" id="eduGrid">
+  <!-- Halk Oyunları Eğitimi -->
+  <div class="col-12 col-md-6 col-lg-4" data-cat="halk">
+    <a href="egitimler.html#halk-oyunlari" class="edu-card h-100">
+      <div class="edu-icon"><i class="bi bi-people-fill"></i></div>
+      <h5>Halk Oyunları Eğitimi</h5>
+      <p>Temel–ileri seviye, bölgesel figürler ve sahne uyumu.</p>
+      <span class="edu-link">Detayları Gör <i class="bi bi-arrow-right"></i></span>
+    </a>
+  </div>
+
+  <!-- Halay -->
+  <div class="col-12 col-md-6 col-lg-4" data-cat="halk">
+    <a href="egitimler.html#halay" class="edu-card h-100">
+      <div class="edu-icon"><i class="bi bi-hand-index-thumb"></i></div>
+      <h5>Halay Eğitimi</h5>
+      <p>Ritim, uyum ve ekip halinde akış; seviyeye göre ilerleme.</p>
+      <span class="edu-link">Detayları Gör <i class="bi bi-arrow-right"></i></span>
+    </a>
+  </div>
+
+  <!-- Horon -->
+  <div class="col-12 col-md-6 col-lg-4" data-cat="halk">
+    <a href="egitimler.html#horon" class="edu-card h-100">
+      <div class="edu-icon"><i class="bi bi-lightning-charge-fill"></i></div>
+      <h5>Horon Eğitimi</h5>
+      <p>Enerji, tempo ve hızlı figürlerle Karadeniz havası.</p>
+      <span class="edu-link">Detayları Gör <i class="bi bi-arrow-right"></i></span>
+    </a>
+  </div>
+
+  <!-- Dilber -->
+  <div class="col-12 col-md-6 col-lg-4" data-cat="dunya">
+    <a href="egitimler.html#dilber" class="edu-card h-100">
+      <div class="edu-icon"><i class="bi bi-gem"></i></div>
+      <h5>Dilber Dansı Eğitimi</h5>
+      <p>Stil, ifade ve koreografi; sahnede güçlü duruş.</p>
+      <span class="edu-link">Detayları Gör <i class="bi bi-arrow-right"></i></span>
+    </a>
+  </div>
+
+  <!-- Sirtaki -->
+  <div class="col-12 col-md-6 col-lg-4" data-cat="dunya">
+    <a href="egitimler.html#sirtaki" class="edu-card h-100">
+      <div class="edu-icon"><i class="bi bi-globe-europe-africa"></i></div>
+      <h5>Sirtaki Eğitimi</h5>
+      <p>Akış, ritim ve grup uyumu; keyifli öğrenme.</p>
+      <span class="edu-link">Detayları Gör <i class="bi bi-arrow-right"></i></span>
+    </a>
+  </div>
+
+  <!-- Darbuka -->
+  <div class="col-12 col-md-6 col-lg-4" data-cat="ritim">
+    <a href="egitimler.html#darbuka" class="edu-card h-100">
+      <div class="edu-icon"><i class="bi bi-music-note-beamed"></i></div>
+      <h5>Darbuka Ritim Eğitimi</h5>
+      <p>Sayım, tempo, temel vuruşlar ve ritim hafızası.</p>
+      <span class="edu-link">Detayları Gör <i class="bi bi-arrow-right"></i></span>
+    </a>
+  </div>
+
+  <!-- Balkan -->
+  <div class="col-12 col-md-6 col-lg-4" data-cat="dunya">
+    <a href="egitimler.html#balkan" class="edu-card h-100">
+      <div class="edu-icon"><i class="bi bi-compass-fill"></i></div>
+      <h5>Balkan Dansı Eğitimi</h5>
+      <p>Kıvrak figürler, ritim değişimleri ve sahne enerjisi.</p>
+      <span class="edu-link">Detayları Gör <i class="bi bi-arrow-right"></i></span>
+    </a>
+  </div>
+
+  <!-- Oryantal / Roman -->
+  <div class="col-12 col-md-6 col-lg-4" data-cat="sahne">
+    <a href="egitimler.html#oryantal" class="edu-card h-100">
+      <div class="edu-icon"><i class="bi bi-activity"></i></div>
+      <h5>Oryantal / Roman Dansları</h5>
+      <p>İfade, ritim, beden farkındalığı ve koreografi.</p>
+      <span class="edu-link">Detayları Gör <i class="bi bi-arrow-right"></i></span>
+    </a>
+  </div>
+
+  <!-- Düğün Dansları -->
+  <div class="col-12 col-md-6 col-lg-4" data-cat="sahne">
+    <a href="egitimler.html#dugun" class="edu-card h-100">
+      <div class="edu-icon"><i class="bi bi-hearts"></i></div>
+      <h5>Düğün Dansları</h5>
+      <p>Çifte özel koreografi, prova planı ve sahne rahatlığı.</p>
+      <span class="edu-link">Detayları Gör <i class="bi bi-arrow-right"></i></span>
+    </a>
+  </div>
+</div>
+
+  </div>
+</section>
+<style>
+  /* Filter chips */
+.edu-filter{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+}
+
+.edu-chip{
+  border:1px solid rgba(111,66,193,.25);
+  background:#fff;
+  color:#6f42c1;
+  padding:8px 12px;
+  border-radius:999px;
+  font-weight:700;
+  font-size:13px;
+  transition:.2s ease;
+}
+
+.edu-chip:hover{
+  background: rgba(111,66,193,.10);
+}
+
+.edu-chip.active{
+  background:#6f42c1;
+  color:#fff;
+  border-color:#6f42c1;
+}
+
+</style>
+<style>
+  .edu-card h5{ margin: 0 0 10px; font-weight:800; }
+.edu-card p{ margin: 0; color: rgba(0,0,0,.62); }
+
+  .edu-tags{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  margin: 12px 0 14px;
+}
+
+.edu-tag{
+  font-size:12px;
+  padding:6px 10px;
+  border-radius:999px;
+  background: rgba(244,123,40,.10);   /* turuncu pastel */
+  border:1px solid rgba(244,123,40,.18);
+  color:#6f42c1;                       /* mor yazı (uyumlu) */
+  line-height:1;
+}
+
+  /* Ment.Dans uyumlu kartlar */
+.edu-card{
+  display:block;
+  background:#fff;
+  border:1px solid rgba(0,0,0,.06);
+  border-radius:18px;
+  padding:22px 20px;
+  text-decoration:none;
+  color:inherit;
+  box-shadow:0 10px 30px rgba(0,0,0,.06);
+  transition:.2s ease;
+  position:relative;
+  overflow:hidden;
+}
+
+.edu-card:hover{
+  transform: translateY(-4px);
+  box-shadow:0 16px 45px rgba(0,0,0,.10);
+  border-color: rgba(111,66,193,.25);
+}
+
+.edu-icon{
+  width:56px;
+  height:56px;
+  border-radius:16px;
+  display:grid;
+  place-items:center;
+  margin-bottom:14px;
+  background: rgba(111,66,193,.12); /* mor */
+  color: #6f42c1;
+  font-size:26px;
+}
+
+
+.edu-link{
+  font-weight:700;
+  color:#6f42c1;
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+}
+
+.edu-card::after{
+  content:"";
+  position:absolute;
+  inset:auto -60px -60px auto;
+  width:180px; height:180px;
+  border-radius:50%;
+  background: radial-gradient(circle, rgba(255,165,0,.18), rgba(111,66,193,.08), transparent 70%);
+  pointer-events:none;
+}
+
+</style>
+<script>
+  const chips = document.querySelectorAll(".edu-chip");
+  const cards = document.querySelectorAll("#eduGrid > div[data-cat]");
+
+  chips.forEach(btn=>{
+    btn.addEventListener("click", ()=>{
+      chips.forEach(b=>b.classList.remove("active"));
+      btn.classList.add("active");
+
+      const f = btn.getAttribute("data-filter");
+      cards.forEach(card=>{
+        const cat = card.getAttribute("data-cat");
+        card.style.display = (f==="all" || f===cat) ? "" : "none";
+      });
+    });
+  });
+</script>
+  <script>
+  window.addEventListener("load", () => {
+    document.getElementById("spinner")?.classList.remove("show");
+  });
+</script>
+
+
+    <!-- Footer Start -->
+    <div
+      class="container-fluid footer bg-dark text-light footer mt-5 pt-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-light mb-4">Adres</h5>
+            <p class="mb-2">
+              <i class="fa fa-map-marker-alt me-3"></i>Maltepe, İstanbul, Türkiye
+            </p>
+            <p class="mb-2">
+              <i class="fa fa-phone-alt me-3"></i>+90 533 213 32 10
+            </p>
+            <div class="d-flex pt-2">
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-youtube"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href=""
+              ><i class="fab fa-instagram"></i
+            ></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-light mb-4">Hızlı Menü</h5>
+            <a class="btn btn-link" href="#">Anasayfa</a>
+            <a class="btn btn-link" href="hakkimizda.html">Hakkımızda</a>
+            <a class="btn btn-link" href="egitimler.html">Eğitimler</a>
+            <a class="btn btn-link" href="videolar.html">Videolar</a>
+            <a class="btn btn-link" href="iletisim.html">İletişim</a>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-light mb-4">Eğitimler</h5>
+            <a class="btn btn-link" href="">Halk Oyunları</a>
+            <a class="btn btn-link" href="">Ritim & Müzik</a>
+            <a class="btn btn-link" href="">Düğün & Organizasyon</a>
+            <a class="btn btn-link" href="">Hizmetler</a>
+          </div>
+                    <div class="col-lg-3 col-md-6">
+            <h5 class="text-light mb-4">E-Bülten</h5>
+            <p>Yeni eğitimler, atölyeler ve etkinliklerden ilk sen haberdar ol.</p>
+            <div class="position-relative mx-auto" style="max-width: 400px">
+              <input
+                class="form-control border-0 w-100 py-3 ps-4 pe-5"
+                type="text"
+                placeholder="Emailinizi girin"
+              />
+              <button
+                type="button"
+                class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
+              >
+                Kayıt Ol
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <div class="row">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+              &copy; <a class="border-bottom" href="#">Mental Sanat Merkezi</a>. Tüm hakları saklıdır.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+      ><i class="bi bi-arrow-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+</body>
+</html>

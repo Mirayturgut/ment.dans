@@ -44,6 +44,15 @@
     width: 38px;
     height: 38px;
 }
+  .text-primary {
+        color: #8B57A7 !important;
+      }
+       .btn-primary {
+        color: #000;
+       background-color: #8B57A7 !important;
+       border-color: #8B57A7 !important;
+       border-radius: 10%;
+      }
 
 .btn-sm-square {
     width: 32px;
@@ -122,6 +131,7 @@
     font-weight: 500;
 }
 
+
 @media (min-width: 992px) {
     .navbar .nav-item .dropdown-menu {
         display: block;
@@ -145,6 +155,10 @@
 /*** Header ***/
 .header-bg {
     background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../images/mentdans-logo-800x800.png) center center no-repeat;
+    background-size: cover;
+}
+.header-inline-bg {
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../images/horon-zeybek.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -578,4 +592,7 @@
 
 .footer .copyright a:hover {
     color: var(--primary);
+}
+.form-control{
+    border-radius: 10px !important;
 }
